@@ -12,7 +12,7 @@
 
 Kotlin, değişken tanımlarken değeriyle tanımlamamızı gerektiren bir dildir. (Lateinit:Late initialized) Lateinit keyword'ü, bir değişkene değer ataması yapma kısmını atlayarak tanımlamamıza olanak sağlar. Eğer initialized (değer atamadan) önce tanımlamaya çalışırsak Kotlin bize UninitializedPropertyAccessException hatasını verir.
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+AppCompatActivity(){
 
     private lateinit var button: Button
     private lateinit var button2: Button
