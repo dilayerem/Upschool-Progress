@@ -6,8 +6,8 @@ This exercise is one of my first experience with Kotlin and firstly for that I w
 > This project has 3 layouts that'll only function as pages.
 > 
 > All these 3 pages' layouts are provided from our Android instructor and with the help of [Figma](https://www.figma.com/file/TpqAHGtIvtC8OfsTuW3iGB/design-courses-app-osamadawood?node-id=0%3A1).
-> >
-> >These layouts are designed for an android application. 
+> 
+> These layouts are designed for an android application. 
 > >
 > > ## Which pages?
 > > - Firstly we have a starting page
