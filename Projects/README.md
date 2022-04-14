@@ -1,3 +1,3 @@
 # PROJECTS
 
-In this repository, I will be updating my homework/projects with Kotlin 
+In this repository, I will be updating my projects with Kotlin 
