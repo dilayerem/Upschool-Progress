@@ -46,7 +46,9 @@ XML, bir belgenin yapısını ve görünümünü tanımlamak için kullanılan h
 Namespace'in büyük projelerdeki kullanımı önemlidir çünkü projelerde birçok insanın yer aldığı göz önünde bulundurulursa isim çatışması (isim çatışması: aynı isimlendirmenin tekrarlanması) olma ihtimali daha yüksektir. 
 
 (namespace kullanmadan)
+
 android:background="@color/<some-color>"
 
 (namespace kullanarak)
+    
 tools:background="@color/<some-color>"
