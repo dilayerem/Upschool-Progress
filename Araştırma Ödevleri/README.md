@@ -42,8 +42,7 @@ Lateinit'le ilgili dikkat edilmesi gereken şeylerden biri lateinit'in primitive
 
 #### Cevaplar:
 
-XML, bir belgenin yapısını ve görünümünü tanımlamak için kullanılan herhangi bir platformdan bağımsız bir dildir. XML namespace'inin temel kullanım amaçlarından birisi isim çatışmalarını önlemektir.
-Namespace'in büyük projelerdeki kullanımı önemlidir çünkü projelerde birçok insanın yer aldığı göz önünde bulundurulursa isim çatışması (isim çatışması: aynı isimlendirmenin tekrarlanması) olma ihtimali daha yüksektir. 
+Namespace'inin temel kullanım amaçlarından birisi isim çatışmalarını önlemektir. Namespace'in büyük projelerdeki kullanımı önemlidir çünkü projelerde birçok insanın yer aldığı göz önünde bulundurulursa isim çatışması (isim çatışması: aynı isimlendirmenin tekrarlanması) olma ihtimali daha yüksektir. 
 
 (namespace kullanmadan)
 
