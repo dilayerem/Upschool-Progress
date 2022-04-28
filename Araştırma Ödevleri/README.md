@@ -7,8 +7,6 @@
 - [Araştırma Projesi 2 - Tools Namespace](#2)
 - [Araştırma Projesi 3 - Font family XML](#3)
 - [Araştırma Projesi 4 - Property Animation](#4)
-- [Öğrenci Cevapları](#x)
-
 
 ## <a name="1"></a> Araştırma Projesi 1
 
