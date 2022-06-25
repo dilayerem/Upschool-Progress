@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414249613658",
+    "project_id": "firebace-project-8b2b3",
+    "storage_bucket": "firebace-project-8b2b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414249613658:android:ac79401fec58fc1092db63",
+        "android_client_info": {
+          "package_name": "com.example.capstoneproject_dilayeremkarabag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414249613658-oah9rf4secachbluhapfbj92pe0s8bl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiQNjc0aU1MvkXYWGn5Z7d1SGa4-kNFBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414249613658-oah9rf4secachbluhapfbj92pe0s8bl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

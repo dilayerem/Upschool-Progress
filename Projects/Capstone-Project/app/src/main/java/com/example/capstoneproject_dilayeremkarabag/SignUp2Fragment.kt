@@ -12,7 +12,7 @@ import com.example.capstoneproject_dilayeremkarabag.databinding.FragmentSignUpBi
 
 class SignUp2Fragment : Fragment() {
 
-    private lateinit var SignUpBinding: FragmentSignUp2Binding
+    private lateinit var signUp2Binding: FragmentSignUp2Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,15 +23,17 @@ class SignUp2Fragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        SignUpBinding = DataBindingUtil.inflate(inflater,R.id.logInFragment,container,false)
-        // Inflate the layout for this fragment
-        return SignUpBinding.root
+        signUp2Binding = DataBindingUtil.inflate(inflater,R.layout.fragment_sign_up2,container,false)
+        return signUp2Binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        SignUpBinding.haveAnAcc.setOnClickListener {
+        signUp2Binding.haveAnAcc.setOnClickListener {
             findNavController().navigate(R.id.action_signUp2Fragment_to_logInFragment)
+        }
+        signUp2Binding.backbutton2.setOnClickListener {
+            findNavController().navigate(R.id.action_signUp2Fragment_to_firstPageFragment2)
         }
     }
 

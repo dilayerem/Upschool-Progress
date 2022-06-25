@@ -7,11 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
-import com.example.capstoneproject_dilayeremkarabag.databinding.FragmentLogInBinding
+import com.example.capstoneproject_dilayeremkarabag.databinding.FragmentFirstPageBinding
 
-class LogInFragment : Fragment() {
-
-    private lateinit var loginBinding: FragmentLogInBinding
+class FirstPageFragment : Fragment() {
+    private lateinit var firstPageBinding: FragmentFirstPageBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,17 +21,15 @@ class LogInFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        loginBinding = DataBindingUtil.inflate(inflater,R.layout.fragment_log_in,container,false)
-        return loginBinding.root
+        firstPageBinding = DataBindingUtil.inflate(inflater,R.layout.fragment_first_page,container,false)
+        return firstPageBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        loginBinding.frgtpass.setOnClickListener {
-            findNavController().navigate(R.id.action_logInFragment_to_forgotPasswordFragment)
-        }
-        loginBinding.backbutton2.setOnClickListener {
-            findNavController().navigate(R.id.action_logInFragment_to_signUp2Fragment)
+        firstPageBinding.button.setOnClickListener {
+            findNavController().navigate(R.id.action_firstPageFragment2_to_signUp2Fragment)
         }
     }
+
 }

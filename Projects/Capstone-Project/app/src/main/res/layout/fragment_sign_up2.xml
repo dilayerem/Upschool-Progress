@@ -44,7 +44,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/backbutton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -104,7 +104,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/haveAnAcc"
             android:layout_width="24dp"
             android:layout_height="19dp"
@@ -113,9 +113,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textView2"
             app:layout_constraintStart_toEndOf="@+id/textView2"
             app:layout_constraintTop_toTopOf="@+id/textView2"
-            app:layout_constraintVertical_bias="0.0"
-            android:background="@color/white"
-            />
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/signUp"
@@ -138,22 +136,25 @@
             android:id="@+id/google"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="20dp"
             android:backgroundTint="#DB3022"
             android:text="Google"
-            app:layout_constraintEnd_toStartOf="@+id/facebookEnter"
+            app:layout_constraintEnd_toStartOf="@+id/facebook"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <Button
-            android:id="@+id/facebookEnter"
+            android:id="@+id/facebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="#DB3022"
             android:text="Facebook"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
-            tools:layout_editor_absoluteX="210dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

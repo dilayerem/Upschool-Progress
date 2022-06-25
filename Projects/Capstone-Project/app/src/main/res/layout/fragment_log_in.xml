@@ -10,7 +10,7 @@
         tools:context=".LogInFragment">
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/backbutton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -20,13 +20,13 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/battery"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_battery_full_24"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-            app:layout_constraintStart_toEndOf="@+id/imageView7"
-            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+            app:layout_constraintBottom_toBottomOf="@+id/wifi"
+            app:layout_constraintStart_toEndOf="@+id/wifi"
+            app:layout_constraintTop_toTopOf="@+id/wifi" />
 
         <TextView
             android:id="@+id/login"
@@ -84,7 +84,7 @@
 
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/frgtpass"
             android:layout_width="24dp"
             android:layout_height="19dp"
             android:layout_marginStart="10dp"
@@ -95,16 +95,16 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/wifi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_wifi_24"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-            app:layout_constraintStart_toEndOf="@+id/imageView6"
-            app:layout_constraintTop_toTopOf="@+id/imageView6" />
+            app:layout_constraintBottom_toBottomOf="@+id/signal"
+            app:layout_constraintStart_toEndOf="@+id/signal"
+            app:layout_constraintTop_toTopOf="@+id/signal" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/signal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -144,22 +144,25 @@
             android:id="@+id/google"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="20dp"
             android:backgroundTint="#DB3022"
             android:text="Google"
-            app:layout_constraintEnd_toStartOf="@+id/facebookEnter"
+            app:layout_constraintEnd_toStartOf="@+id/facebook"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <Button
-            android:id="@+id/facebookEnter"
+            android:id="@+id/facebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="#DB3022"
             android:text="Facebook"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:layout_editor_absoluteX="210dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

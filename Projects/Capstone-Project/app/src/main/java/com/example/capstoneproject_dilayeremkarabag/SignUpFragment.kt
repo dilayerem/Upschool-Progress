@@ -15,7 +15,7 @@ import com.example.capstoneproject_dilayeremkarabag.SignUpFragment as SignUpFrag
 
 class SignUpFragment : Fragment() {
 
-    private lateinit var SignUpBinding: FragmentSignUpBinding
+   /* private lateinit var SignUpBinding: FragmentSignUpBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,4 +37,5 @@ class SignUpFragment : Fragment() {
             findNavController().navigate(R.id.action_signUpFragment_to_logInFragment)
         }
     }
+    */
 }

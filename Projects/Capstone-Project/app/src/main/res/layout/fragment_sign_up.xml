@@ -2,12 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".SignUpFragment">
-
+<!--
         <TextView
             android:id="@+id/clock"
             android:text="clock"
@@ -155,6 +150,13 @@
             android:text="Facebook"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
             tools:layout_editor_absoluteX="210dp" />
+-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SignUpFragment">
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
